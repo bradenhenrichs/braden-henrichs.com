@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Braden Henrichs — Software Engineer</title>
+  <meta name="description" content="Interactive CV for Braden Henrichs — software engineer. TODO: replace with real one-line positioning statement." />
+  <link rel="canonical" href="https://braden-henrichs.com/" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf8f3" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121110" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Braden Henrichs — Software Engineer" />
+  <meta property="og:description" content="Interactive CV for Braden Henrichs — software engineer. TODO: replace with real one-line positioning statement." />
+  <meta property="og:url" content="https://braden-henrichs.com/" />
+  <meta property="og:site_name" content="Braden Henrichs" />
+  <meta property="og:image" content="https://braden-henrichs.com/og-image.png" /> <!-- TODO: add a real 1200x630 og-image.png -->
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Braden Henrichs — Software Engineer" />
+  <meta name="twitter:description" content="Interactive CV for Braden Henrichs — software engineer." />
+  <meta name="twitter:image" content="https://braden-henrichs.com/og-image.png" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="mask-icon" href="/favicon.svg" color="#c8481a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Braden Henrichs",
+    "url": "https://braden-henrichs.com/",
+    "jobTitle": "Software Engineer",
+    "description": "TODO: one or two sentence bio for structured data.",
+    "sameAs": [
+      "https://github.com/bradenhenrichs",
+      "https://www.linkedin.com/in/TODO"
+    ],
+    "email": "mailto:TODO@example.com"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo-mark" href="#top">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="var(--accent)" />
+          <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+                font-family="Fraunces, serif" font-weight="700" font-size="17"
+                fill="var(--accent-text)">BH</text>
+        </svg>
+        <span>Braden Henrichs</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Interactive CV</p>
+        <h1>Building things that <em>work, and keep working.</em></h1>
+        <!-- TODO: replace hero headline with real positioning statement -->
+        <p class="hero-lede">
+          TODO: two or three sentences introducing who Braden is, the kind of problems
+          he likes to solve, and what he's looking for next. This placeholder exists so
+          the page structure can be reviewed before real copy lands via <code>content.md</code>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#experience">View experience</a>
+          <a class="btn btn-secondary" href="/resume.pdf">Download résumé</a>
+          <!-- TODO: add real resume.pdf to site root -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-number">01 · About</span>
+          <h2>A little more context</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              TODO: replace with a real "about" narrative — background, what drives you as an
+              engineer, and a sentence or two of personality. Two to three short paragraphs
+              is usually enough.
+            </p>
+            <p>
+              TODO: second paragraph. Mention a value you hold as an engineer (e.g. how you
+              approach ambiguity, mentorship, or reliability) and back it with a concrete detail.
+            </p>
+            <span class="todo-flag">TODO: merge real bio from content.md</span>
+          </div>
+          <dl class="fact-list">
+            <div>
+              <dt>Based in</dt>
+              <dd>TODO: City, Country</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>TODO: e.g. Backend systems &amp; developer tooling</dd>
+            </div>
+            <div>
+              <dt>Currently</dt>
+              <dd>TODO: role @ company</dd>
+            </div>
+            <div>
+              <dt>Open to</dt>
+              <dd>TODO: e.g. Staff/Lead roles, consulting</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-number">02 · Experience</span>
+          <h2>Career timeline</h2>
+          <p>Expand any role for the full case study — the problem, the approach, and the measurable impact.</p>
+        </div>
+
+        <ol class="timeline" id="timeline">
+          <li class="timeline-item">
+            <article class="case-card">
+              <button class="case-toggle" aria-expanded="false" aria-controls="panel-1" id="toggle-1">
+                <span class="case-heading">
+                  <span class="case-meta">TODO 2023 — Present · TODO Company</span>
+                  <span class="case-role">TODO: Senior Software Engineer</span>
+                  <span class="case-summary">TODO: one-line summary of scope and standout outcome for this role.</span>
+                </span>
+                <span class="case-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14" />
+                  </svg>
+                </span>
+              </button>
+              <div class="case-panel-wrap">
+                <div class="case-panel" id="panel-1" role="region" aria-labelledby="toggle-1">
+                  <div class="case-panel-inner">
+                    <div class="case-grid">
+                      <div class="case-block">
+                        <h4>Challenge</h4>
+                        <p>TODO: what problem existed before this work started.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Approach</h4>
+                        <p>TODO: what you actually did, decisions made, tradeoffs taken.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Impact</h4>
+                        <p>TODO: quantified outcome — latency, revenue, adoption, reliability.</p>
+                      </div>
+                    </div>
+                    <ul class="tag-list" aria-label="Technologies used">
+                      <li class="tag">TODO stack</li>
+                      <li class="tag">TODO stack</li>
+                      <li class="tag">TODO stack</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline-item">
+            <article class="case-card">
+              <button class="case-toggle" aria-expanded="false" aria-controls="panel-2" id="toggle-2">
+                <span class="case-heading">
+                  <span class="case-meta">TODO 2021 — 2023 · TODO Company</span>
+                  <span class="case-role">TODO: Software Engineer</span>
+                  <span class="case-summary">TODO: one-line summary of scope and standout outcome for this role.</span>
+                </span>
+                <span class="case-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14" />
+                  </svg>
+                </span>
+              </button>
+              <div class="case-panel-wrap">
+                <div class="case-panel" id="panel-2" role="region" aria-labelledby="toggle-2">
+                  <div class="case-panel-inner">
+                    <div class="case-grid">
+                      <div class="case-block">
+                        <h4>Challenge</h4>
+                        <p>TODO: what problem existed before this work started.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Approach</h4>
+                        <p>TODO: what you actually did, decisions made, tradeoffs taken.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Impact</h4>
+                        <p>TODO: quantified outcome — latency, revenue, adoption, reliability.</p>
+                      </div>
+                    </div>
+                    <ul class="tag-list" aria-label="Technologies used">
+                      <li class="tag">TODO stack</li>
+                      <li class="tag">TODO stack</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline-item">
+            <article class="case-card">
+              <button class="case-toggle" aria-expanded="false" aria-controls="panel-3" id="toggle-3">
+                <span class="case-heading">
+                  <span class="case-meta">TODO 2019 — 2021 · TODO Company</span>
+                  <span class="case-role">TODO: Software Engineer</span>
+                  <span class="case-summary">TODO: one-line summary of scope and standout outcome for this role.</span>
+                </span>
+                <span class="case-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14" />
+                  </svg>
+                </span>
+              </button>
+              <div class="case-panel-wrap">
+                <div class="case-panel" id="panel-3" role="region" aria-labelledby="toggle-3">
+                  <div class="case-panel-inner">
+                    <div class="case-grid">
+                      <div class="case-block">
+                        <h4>Challenge</h4>
+                        <p>TODO: what problem existed before this work started.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Approach</h4>
+                        <p>TODO: what you actually did, decisions made, tradeoffs taken.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Impact</h4>
+                        <p>TODO: quantified outcome — latency, revenue, adoption, reliability.</p>
+                      </div>
+                    </div>
+                    <ul class="tag-list" aria-label="Technologies used">
+                      <li class="tag">TODO stack</li>
+                      <li class="tag">TODO stack</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="timeline-item">
+            <article class="case-card">
+              <button class="case-toggle" aria-expanded="false" aria-controls="panel-4" id="toggle-4">
+                <span class="case-heading">
+                  <span class="case-meta">TODO 2015 — 2019 · TODO University</span>
+                  <span class="case-role">TODO: B.S. in Computer Science</span>
+                  <span class="case-summary">TODO: relevant coursework, honors, or capstone project.</span>
+                </span>
+                <span class="case-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14" />
+                  </svg>
+                </span>
+              </button>
+              <div class="case-panel-wrap">
+                <div class="case-panel" id="panel-4" role="region" aria-labelledby="toggle-4">
+                  <div class="case-panel-inner">
+                    <div class="case-grid">
+                      <div class="case-block">
+                        <h4>Focus</h4>
+                        <p>TODO: areas of study or specialization.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Highlight</h4>
+                        <p>TODO: capstone, thesis, or notable project.</p>
+                      </div>
+                      <div class="case-block">
+                        <h4>Activities</h4>
+                        <p>TODO: clubs, teaching assistantships, competitions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-number">03 · Skills</span>
+          <h2>Toolbox</h2>
+          <p>Filter by category, or browse everything at once.</p>
+        </div>
+
+        <div class="skills-filter" role="group" aria-label="Filter skills by category" id="skills-filter">
+          <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" type="button" data-filter="languages" aria-pressed="false">Languages</button>
+          <button class="filter-btn" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+          <button class="filter-btn" type="button" data-filter="backend" aria-pressed="false">Backend</button>
+          <button class="filter-btn" type="button" data-filter="cloud" aria-pressed="false">Cloud &amp; DevOps</button>
+          <button class="filter-btn" type="button" data-filter="practices" aria-pressed="false">Practices</button>
+        </div>
+
+        <p class="skills-empty" id="skills-empty" hidden>No skills match this filter yet.</p>
+
+        <div class="skills-grid" id="skills-grid" aria-live="polite">
+          <div class="skill-pill" data-category="languages">
+            <span class="skill-name">TODO: Language A</span>
+            <span class="skill-cat">Languages</span>
+          </div>
+          <div class="skill-pill" data-category="languages">
+            <span class="skill-name">TODO: Language B</span>
+            <span class="skill-cat">Languages</span>
+          </div>
+          <div class="skill-pill" data-category="frontend">
+            <span class="skill-name">TODO: Frontend framework</span>
+            <span class="skill-cat">Frontend</span>
+          </div>
+          <div class="skill-pill" data-category="frontend">
+            <span class="skill-name">TODO: CSS/tooling</span>
+            <span class="skill-cat">Frontend</span>
+          </div>
+          <div class="skill-pill" data-category="backend">
+            <span class="skill-name">TODO: Backend framework</span>
+            <span class="skill-cat">Backend</span>
+          </div>
+          <div class="skill-pill" data-category="backend">
+            <span class="skill-name">TODO: Database</span>
+            <span class="skill-cat">Backend</span>
+          </div>
+          <div class="skill-pill" data-category="cloud">
+            <span class="skill-name">TODO: Cloud provider</span>
+            <span class="skill-cat">Cloud &amp; DevOps</span>
+          </div>
+          <div class="skill-pill" data-category="cloud">
+            <span class="skill-name">TODO: CI/CD tool</span>
+            <span class="skill-cat">Cloud &amp; DevOps</span>
+          </div>
+          <div class="skill-pill" data-category="practices">
+            <span class="skill-name">TODO: e.g. System Design</span>
+            <span class="skill-cat">Practices</span>
+          </div>
+          <div class="skill-pill" data-category="practices">
+            <span class="skill-name">TODO: e.g. Mentorship</span>
+            <span class="skill-cat">Practices</span>
+          </div>
+        </div>
+        <span class="todo-flag">TODO: replace skill placeholders and adjust categories from content.md</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-number">04 · Contact</span>
+          <h2>Get in touch</h2>
+        </div>
+        <div class="contact-panel">
+          <div>
+            <p>TODO: short closing line inviting people to reach out — about roles, collaboration, or a chat.</p>
+          </div>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:TODO@example.com">Email</a>
+            <a class="btn btn-secondary" href="https://github.com/bradenhenrichs">GitHub</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/TODO">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Braden Henrichs. Built by hand, no framework required.</p>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
